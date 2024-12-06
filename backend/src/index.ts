@@ -4,7 +4,7 @@ import morgan from "morgan";
 import dotenv from "dotenv";
 import cors from "cors";
 import { activateAPI } from "./api/api";
-import { errorHandler } from "./middleware/errorHandler";
+import { errorHandler } from "./middlewere/errorHandler";
 
 dotenv.config({ path: "./dev.env" });
 
