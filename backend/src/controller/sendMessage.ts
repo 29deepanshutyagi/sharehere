@@ -12,6 +12,7 @@ export const sendMessageController = async (req: Request, res: Response): Promis
         error: `Message facility not in use. To enable it, contact admin at ${process.env.PHONE}`,
       });
       return;
+      
     }
 
     const { number, url, message } = req.body;
